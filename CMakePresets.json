@@ -8,8 +8,8 @@
             "generator": "Ninja",
             "binaryDir": "${sourceDir}/build/${presetName}",
             "cacheVariables": {
-                "CMAKE_C_COMPILER": "C:/dev/mingw64/bin/gcc.exe",
-                "CMAKE_CXX_COMPILER": "C:/dev/mingw64/bin/g++.exe",
+                "CMAKE_C_COMPILER": "gcc",
+                "CMAKE_CXX_COMPILER": "g++",
                 "CMAKE_POLICY_VERSION_MINIMUM": "3.5"
             }
         },
